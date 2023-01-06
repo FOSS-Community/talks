@@ -1,0 +1,48 @@
+name: Talk Proposal
+description: Create a proposal for your talk at Open Source Fest. 
+labels: ["proposal"]
+assignees:
+  - akshatcoder-hash
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Please share the title of your talk
+      placeholder: For E.g, Blockchain 101
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your Talk
+      description: Brief description about your talk in 50-100 words.
+    validations:
+      required: true
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Pre-requisites & reading material
+      description: Anything that needs to be distributed or shared before the session starts
+  - type: input
+    id: time
+    attributes:
+      label: Time required for the talk 
+      description: Please specify how much time does your talk requires.
+    validations:
+      required: true
+  - type: input
+    id: slides
+    attributes:
+      label: Link to slides/demos
+      placeholder: ex. https://slides.com/....
+    validations:
+      required: false
+  - type: textarea
+    id: comments
+    attributes:
+      label: Any comments
+      description: Share any other information that you think is necessary
+    validations:
+      required: false
+
