@@ -19,7 +19,7 @@ body:
       description: Brief description about your talk in 50-100 words.
     validations:
       required: true
-  - type: textarea
+  - type: link
     id: prerequisites
     attributes:
       label: Pre-requisites & reading material
@@ -33,7 +33,6 @@ body:
       required: true
   - type: input
     id: slides
-    render: link
     attributes:
       label: Link to slides/demos
       description: How can we get in touch with you if we need more info?
