@@ -37,6 +37,7 @@ body:
       label: Link to slides/demos
       description: How can we get in touch with you if we need more info?
       placeholder: ex. https://slides.com/....
+      render: link
     validations:
       required: false
   - type: textarea
