@@ -19,7 +19,7 @@ body:
       description: Brief description about your talk in 50-100 words.
     validations:
       required: true
-  - type: link
+  - type: textarea
     id: prerequisites
     attributes:
       label: Pre-requisites & reading material
