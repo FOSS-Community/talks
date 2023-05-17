@@ -3,7 +3,6 @@ description: Create a proposal for your talk at FOSSC Weekly Open-Mic Sessions.
 labels: ["proposal"]
 assignees:
   - akshatcoder-hash
-  - Bharadwajshivam28
 body:
   - type: input
     id: title
